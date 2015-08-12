@@ -43,6 +43,9 @@ a:hover,
 a:focus,
 a:active,
 a.active {
+    color: #222;
+}
+footer a:hover {
     color: #fff;
 }
 
@@ -277,6 +280,13 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#registration .btn-xl {
+    background-color: transparent;
+}
+#registration .btn-xl:hover {
+    background:rgba(255,255,255,0.2);
 }
 
 #portfolio .portfolio-item {
