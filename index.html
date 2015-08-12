@@ -139,42 +139,69 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">CySCA 2015 - Formspree</h2>
+                    <h2 class="section-heading">CySCA 2015</h2>
                     <h3 class="section-subheading">CySCA 2015 will be held from noon, Wednesday 30 September to noon Thursday 1 October (AEST). Are you ready?</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <form action="https://formspree.io/duncan.alderson@webantix.net" method="POST">
-
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-
+                    <input type="hidden" name="_subject" value="Cyber Challenge Registration" />
+                    <input type="text" name="_gotcha" style="display:none" />
 
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" name="name">
+                                    <input type="text" class="form-control" placeholder="Institution: University/TAFE *" name="Institution" aria-required="true" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
+                                    <input type="text" class="form-control" placeholder="Team name *" name="Team Name" aria-required="true" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
+                                    <input type="text" class="form-control" placeholder="Academic Representative: Full Name *" name="Academic Representative Name" aria-required="true" required>
                                 </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Academic Representative: Position *" name="Academic Representative Position" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Academic Representative: Email Address *" name="Academic Representative Email" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Academic Representative: Phone Number *" name="Academic Representative Phone" aria-required="true" required>
+                                </div>
+                                
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
+                                    <input type="text" class="form-control" placeholder="Student 1: Full Name *" name="Student 1: Full Name" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 1: Enrolment Details *" name="Student 1: Enrolement Details" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 2: Full Name *" name="Student 2: Full Name" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 2: Enrolment Details *" name="Student 2: Enrolement Details" aria-required="true" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 3: Full Name *" name="Student 3: Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 3: Enrolment Details *" name="Student 3: Enrolement Details" >
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 4: Full Name *" name="Student 4: Full Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Student 4: Enrolment Details *" name="Student 4: Enrolement Details" >
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
                                 <button type="submit" class="btn btn-xl">Send Message</button>
+
                             </div>
                         </div>
                     </form>
