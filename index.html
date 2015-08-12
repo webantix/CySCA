@@ -64,7 +64,7 @@
                         <a class="page-scroll" href="#prizes">Prizes</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#resources">Resources</a>
+                        <a class="page-scroll" href="#portfolio">Resources</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#sponsors">Sponsors</a>
@@ -145,12 +145,39 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form action="https://formspree.io/duncan.alderson@webantix.net"
-      method="POST">
-    <input type="text" name="name">
+                    <form action="https://formspree.io/duncan.alderson@webantix.net" method="POST">
+
     <input type="email" name="_replyto">
     <input type="submit" value="Send">
-</form>
+
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" name="name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             </div>
@@ -256,19 +283,91 @@
     </section>
 
     <!-- Resources Section -->
-    <section id="resources" class="bg-pattern">
+    <section id="portfolio" class="bg-pattern">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Resources</h2>
                     <h3 class="section-subheading">A few pointers to get you ready!</h3>
-                    <p>CySCA has put together these solutions along with the CySCA2014-in-a-Box to help you understand and solve the challenges yourself.</p>
-                    <p>Be aware that the procedures used in these documents aren't necessarily the only way to solve the challenges. Players submitted some very elegant solutions during the competitions that do not match these solutions. Please help others to learn by publishing your solution write-ups online.</p>
                 </div>
             </div>
-            
             <div class="row">
+        
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cysca-resource.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>2013 Cyber Challenge</h4>
+                        <p class="text-muted">Write Up</p>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cysca-resource.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>2014 Cyber Challenge</h4>
+                        <p class="text-muted">Write Up</p>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cysca-resource.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>2014 Cyber Challenge</h4>
+                        <p class="text-muted">In-a-box</p>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cysca-resource.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>CTF Sites</h4>
+                        <p class="text-muted">Other useful sites</p>
+                    </div>
+                </div>
                 
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/cysca-resource.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Tools</h4>
+                        <p class="text-muted">Learn these or lose!</p>
+                    </div>
+                </div>
+        
             </div>
         </div>
     </section>
