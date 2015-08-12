@@ -654,6 +654,7 @@ footer {
 
     .spotlight {
         align-items: center;
+        text-align: justify;
         display: flex;
     }
 
