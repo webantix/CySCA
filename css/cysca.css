@@ -23,8 +23,12 @@ p {
     line-height: 1.75;
 }
 
-p.large {
-    font-size: 16px;
+p.small {
+    font-size: 11px;
+}
+sup {
+    font-size: 11px;
+
 }
 
 a,
@@ -37,6 +41,10 @@ a.active {
 
 a {
     color: #3F9B8C;
+}
+.bg-pattern a {
+    color:#fff;
+    text-decoration: underline;
 }
 
 a:hover,
@@ -81,9 +89,9 @@ h4 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #3F9B8C;
     color: #fff;
-    background-color: #fec503;
+    background-color: #265D54;
 }
 
 .btn-primary:active,
@@ -275,7 +283,9 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-
+#prizes .subsub-heading {
+    margin-top: -50px;
+}
 
 .service-heading {
     margin: 15px 0;
@@ -284,6 +294,7 @@ section h3.section-subheading {
 
 #registration .btn-xl {
     background-color: transparent;
+    margin: 20px 0 35px 0;
 }
 #registration .btn-xl:hover {
     background:rgba(255,255,255,0.2);
@@ -492,7 +503,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content {
-    padding: 100px 0;
+    padding: 0;
     min-height: 100%;
     border: 0;
     border-radius: 0;
@@ -546,7 +557,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #fff;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -556,7 +567,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -565,12 +576,24 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+
+}
+.modal-header{
+    height: 125px;
+    background: url(../img/cysca-bg-hr.png) no-repeat center fixed;
+    color: #fff;
+}
+.modal-body {
+    text-align: left;
+    
 }
 
 ::-moz-selection {
     text-shadow: none;
     background: #3F9B8C;
 }
+
+
 
 ::selection {
     text-shadow: none;
